@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav pt-[10px]">
+        <div class="container">
+          <div
+            class="wrapper mobile:flex mobile:justify-between desktop:flex gap-[56px] py-[16px] items-center"
+          >
+            <div class="logo">
+              <img src="./assets/icon/Logo (8).svg" alt="Logo" />
+            </div>
+            <label
+              class="hidden desctop:block desktop:flex bg-[#F5F5F5] border-none"
+            >
+              <img class="px-4 py-4" src="./assets/icon/seach.svg" alt="" />
+              <input
+                class="w-[372px] bg-[#F5F5F5] h-[56px] outline-none"
+                type="text"
+                placeholder="Search"
+              />
+              <div class="flex items-center">
+                <p class="text-[#656565] font-[500] text-[14px]"></p>
+              </div>
+            </label>
+
+            <ul class="hidden desktop:block desktop:flex gap-[40px]">
+              <li class="">
+                <a href="#">
+                  <span
+                    class="text-[#A4A4A4] hover:text-slate-950 active:underline hover:shadow-xl"
+                  >
+                    Home</span
+                  >
+                </a>
+              </li>
+              <li class="">
+                <a href="">
+                  <span
+                    class="text-[#A4A4A4] hover:text-slate-950 active:underline hover:shadow-xl"
+                  >
+                    About
+                  </span>
+                </a>
+              </li>
+              <li class="">
+                <a href="">
+                  <span
+                    class="text-[#A4A4A4] hover:text-slate-950 active:underline hover:shadow-xl"
+                  >
+                    Contact Us
+                  </span>
+                </a>
+              </li>
+              <li class="">
+                <a href="">
+                  <span
+                    class="text-[#A4A4A4] hover:text-slate-950 active:underline hover:shadow-xl"
+                  >
+                    Blog
+                  </span>
+                </a>
+              </li>
+            </ul>
+
+            <div class="hidden desktop:block desktop:flex gap-[24px]">
+              <img
+                class="px-[6px] py-[7px]"
+                src="./assets/icon/like.svg"
+                alt=""
+              />
+              <img
+                class="border-color:currentColor; pl-[3px] pr-[4px] py-[5px]"
+                src="./assets/icon/savat.svg"
+                alt=""
+              />
+              <img
+                class="px-[7px] py-[5px]"
+                src="./assets/icon/person.svg"
+                alt=""
+              />
+            </div>
+            <div class="desktop:hidden">
+              <img src="./assets/icon/Burger.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <section class="hidden desktop:block">
+          <div class="container">
+            <div class="wrapper">
+              <ul class="flex gap-[16px] py-[44px]">
+                <li class="">
+                  <a href="">
+                    <span
+                      class="text-[#A4A4A4] font-[500] text-[16px] hover:text-blue-600 active:underline"
+                    >
+                      Home</span
+                    >
+                  </a>
+                </li>
+                <a class="flex items-center" href="">
+                  <img
+                    class="py-[6px] px-[9px]"
+                    src="./assets/icon/Vector 9.svg"
+                    alt=""
+                  />
+                </a>
+                <li class="">
+                  <a href="">
+                    <span
+                      class="text-[#A4A4A4] font-[500] text-[16px] hover:text-blue-600 active:underline"
+                    >
+                      Catalog
+                    </span>
+                  </a>
+                </li>
+                <a class="flex items-center" href="">
+                  <img
+                    class="py-[6px] px-[9px]"
+                    src="./assets/icon/Vector 9.svg"
+                    alt=""
+                  />
+                </a>
+                <li class="">
+                  <a href="">
+                    <span
+                      class="text-[#A4A4A4] font-[500] text-[16px] hover:text-blue-600 active:underline"
+                    >
+                      Smartphones
+                    </span>
+                  </a>
+                </li>
+                <a class="flex items-center" href="">
+                  <img
+                    class="py-[6px] px-[9px]"
+                    src="./assets/icon/Vector 9.svg"
+                    alt=""
+                  />
+                </a>
+                <li class="">
+                  <a href="">
+                    <span
+                      class="text-[#A4A4A4] font-[500] text-[16px] hover:text-blue-600 active:underline"
+                    >
+                      Apple
+                    </span>
+                  </a>
+                </li>
+                <a class="flex items-center" href="">
+                  <img
+                    class="py-[6px] px-[9px]"
+                    src="./assets/icon/Vector 9.svg"
+                    alt=""
+                  />
+                </a>
+                <li class="">
+                  <a href="#">
+                    <span
+                      class="font-[500] text-[16px] hover:text-blue-600 active:underline"
+                    >
+                      iPhone 14 Pro Max
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="mobile:pb-[80px]">
+          <div class="container">
+            <div class="wrapper desktop:flex gap-[48px] desktop:w-[1440px]">
+              <div class="hidden desktop:block py-[190px]">
+                <img src="./assets/icon/Images.svg" alt="" />
+              </div>
+              <div class="desktop:hidden">
+                <img
+                  class="py-[37px] pl-[30px]"
+                  src="./assets/icon/Image (1).svg"
+                  alt=""
+                />
+                <img src="./assets/icon/Product Images.svg" alt="" />
+              </div>
+
+              <div class="py-[37px] desktop:py-[112px]">
+                <div class="max-w-lg hidden desktop:block">
+                  <details
+                    class="open:bg-white dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg"
+                    open
+                  >
+                    <summary
+                      class="text-sm leading-6 text-slate-900 dark:text-white font-semibold select-none"
+                    >
+                      <span class="text-[32px] font-[700] pb-[24px]">
+                        Apple iPhone 14 Pro Max
+                      </span>
+                    </summary>
+                    <div
+                      class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400"
+                    >
+                      <a class="flex items-center" href="">
+                        <span class="text-[32px] font-[500] pr-[16px]"
+                          >$1399</span
+                        >
+                        <span
+                          class="text-[24px] font-[500] line-through text-[#A0A0A0] pt-[8px] pb-[5px]"
+                          >$1499</span
+                        >
+                      </a>
+                    </div>
+                  </details>
+                </div>
+                <div class="desktop:hidden max-w-[327px]">
+                  <details
+                    class="open:bg-white dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg"
+                    open
+                  >
+                    <summary
+                      class="text-sm leading-6 text-slate-900 dark:text-white font-semibold select-none"
+                    >
+                      <span class="text-[32px] font-[700] pb-[24px]">
+                        Apple iPhone 14 <span class="pl-[12px]">Pro Max</span>
+                      </span>
+                    </summary>
+                    <div
+                      class="pl-[12px] mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400"
+                    >
+                      <a class="flex items-center" href="">
+                        <span class="text-[32px] font-[500] pr-[16px]"
+                          >$1399</span
+                        >
+                        <span
+                          class="text-[24px] font-[500] line-through text-[#A0A0A0] pt-[8px] pb-[5px]"
+                          >$1499</span
+                        >
+                      </a>
+                    </div>
+                  </details>
+                </div>
+                <div
+                  class="mobile:pl-[10px] flex gap-[8px] items-center pt-[16px]"
+                >
+                  <p class="pr-[16px] text-[15px] font-[600]">Select color :</p>
+                  <img src="./assets/icon/Ellipse 12.svg" alt="" />
+                  <img src="./assets/icon/Ellipse 13.svg" alt="" />
+                  <img src="./assets/icon/Ellipse 15.svg" alt="" />
+                  <img src="./assets/icon/Ellipse 16.svg" alt="" />
+                  <img class="" src="./assets/icon/Ellipse 14.svg" alt="" />
+                </div>
+                <div class="flex gap-[8px] desktop:gap-[19px] pt-[24px]">
+                  <button
+                    class="hover:text-white bg-gradient-to-r active:bg-violet-700 focus:outline-none focus:ring focus:ring-pink-500 from-indigo-500 via-purple-500 to-pink-500 hover:from-pink-500 hover:to-orange-500 border-solid border-2 border-indigo w-[80px] desktop:w-[122px] h-[48px] my-[16px] text-[14px] font-[500] text-[#D5D5D5] rounded-[10px] desktop:px-[24px]"
+                  >
+                    128GB
+                  </button>
+                  <button
+                    class="hover:text-white bg-gradient-to-r active:bg-violet-700 focus:outline-none focus:ring focus:ring-indigo-800 from-indigo-500 via-purple-800 to-gray-950 hover:from-yellow-500 hover:via-pink-900 hover:to-purple-950 border-solid border-2 border-indigo w-[80px] desktop:w-[122px] h-[48px] my-[16px] text-[14px] font-[500] text-[#6F6F6F] rounded-[10px] desktop:px-[24px]"
+                  >
+                    256GB
+                  </button>
+                  <button
+                    class="hover:text-white hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 border-solid border-2 border-indigo w-[80px] desktop:w-[122px] h-[48px] my-[16px] text-[14px] font-[500] text-[#6F6F6F] rounded-[10px] desktop:px-[24px]"
+                  >
+                    512GB
+                  </button>
+                  <button
+                    class="hover:text-white bg-gradient-to-r active:bg-violet-700 focus:outline-none focus:ring focus:ring-orange-500 from-teal-400 to-blue-500 hover:from-pink-500 hover:to-orange-500 border-solid border-2 border-indigo w-[80px] desktop:w-[122px] h-[48px] my-[16px] text-[14px] font-[500] text-[#000000] rounded-[10px] desktop:px-[24px]"
+                  >
+                    1TB
+                  </button>
+                </div>
+
+                <div
+                  class="grid grid-cols-2 gap-[8px] desktop:grid desktop:grid-cols-3 desktop:gap-[16px]"
+                >
+                  <button
+                    class="flex w-[166px] desktop:w-[168px] h-[64px] border-solid border-2 border-indigo bg-[#F4F4F4]"
+                  >
+                    <img
+                      class="py-[20px] px-[8px]"
+                      src="./assets/icon/Screensize@2x.svg"
+                      alt=""
+                    />
+                    <div class="py-[16px] leading-[1.2]">
+                      <p class="text-[#C4C4C4] text-[14px] font-[400]">
+                        Screen size
+                      </p>
+                      <p class="flex items-start text-[14px] font-[400]">6.7</p>
+                    </div>
+                  </button>
+                  <button
+                    class="flex w-[166px] desktop:w-[168px] h-[64px] border-solid border-2 border-indigo bg-[#F4F4F4]"
+                  >
+                    <img
+                      class="py-[20px] px-[8px]"
+                      src="./assets/icon/smartphone-rotate-2-svgrepo-com 2.svg"
+                      alt=""
+                    />
+                    <div class="py-[16px] leading-[1.2]">
+                      <p
+                        class="flex items-start text-[#C4C4C4] text-[14px] font-[400]"
+                      >
+                        CPU
+                      </p>
+                      <p class="flex items-start text-[14px] font-[400]">
+                        Apple A16 Bionic
+                      </p>
+                    </div>
+                  </button>
+                  <button
+                    class="flex w-[166px] desktop:w-[168px] h-[64px] border-solid border-2 border-indigo bg-[#F4F4F4]"
+                  >
+                    <img
+                      class="py-[20px] px-[8px]"
+                      src="./assets/icon/smartphone-rotate-2-svgrepo-com 2 (1).svg"
+                      alt=""
+                    />
+                    <div class="py-[16px] leading-[1.2]">
+                      <p class="text-[#C4C4C4] text-[14px] font-[400]">
+                        Number of Cores
+                      </p>
+                      <p class="flex items-start text-[14px] font-[400]">6</p>
+                    </div>
+                  </button>
+                  <button
+                    class="flex w-[166px] desktop:w-[168px] h-[64px] border-solid border-2 border-indigo bg-[#F4F4F4]"
+                  >
+                    <img
+                      class="py-[20px] px-[8px]"
+                      src="./assets/icon/smartphone-rotate-2-svgrepo-com 2 (2).svg"
+                      alt=""
+                    />
+                    <div class="py-[16px] leading-[1.2]">
+                      <p class="text-[#C4C4C4] text-[14px] font-[400]">
+                        Main camera
+                      </p>
+                      <p class="flex items-start text-[14px] font-[400]">
+                        48-12 -12 MP
+                      </p>
+                    </div>
+                  </button>
+                  <button
+                    class="flex w-[166px] desktop:w-[168px] h-[64px] border-solid border-2 border-indigo bg-[#F4F4F4]"
+                  >
+                    <img
+                      class="py-[20px] px-[8px]"
+                      src="./assets/icon/smartphone-rotate-2-svgrepo-com 2 (3).svg"
+                      alt=""
+                    />
+                    <div class="py-[16px] leading-[1.2]">
+                      <p class="text-[#C4C4C4] text-[14px] font-[400]">
+                        Front-camera
+                      </p>
+                      <p class="flex items-start text-[14px] font-[400]">
+                        12 MP
+                      </p>
+                    </div>
+                  </button>
+                  <button
+                    class="flex w-[166px] desktop:w-[168px] h-[64px] border-solid border-2 border-indigo bg-[#F4F4F4]"
+                  >
+                    <img
+                      class="py-[20px] px-[8px]"
+                      src="./assets/icon/smartphone-rotate-2-svgrepo-com 2 (4).svg"
+                      alt=""
+                    />
+                    <div class="py-[16px] leading-[1.2]">
+                      <p class="text-[#C4C4C4] text-[14px] font-[400]">
+                        Battery capacity
+                      </p>
+                      <p class="flex items-start text-[14px] font-[400]">
+                        4323 mAh
+                      </p>
+                    </div>
+                  </button>
+                </div>
+                <div>
+                  <p class="w-[536px] pt-[24px] pb-[32px] text-[#6C6C6C]">
+                    Enhanced capabilities thanks toan enlarged
+                    <br class="desktop:hidden" />
+                    display of 6.7 inchesand work without
+                    <br class="desktop:hidden" />
+                    rechargingthroughout the day. Incredible
+                    <br class="desktop:hidden" />
+                    photosas in weak, yesand in bright lightusing
+                    <br class="desktop:hidden" />
+                    the new systemwith two cameras
+                    <span class="underline">more...</span>
+                  </p>
+                </div>
+                <div class="desktop:flex gap-[30px]">
+                  <button
+                    class="mb-[16px] hover:text-white bg-gradient-to-r active:bg-violet-700 focus:outline-none focus:ring focus:ring-pink-500 from-indigo-500 via-purple-500 to-pink-500 hover:from-pink-500 hover:to-orange-500 w-[333px] desktop:w-[260px] h-[56px] border-solid text-[16px] font-[500] border-2 border-indigo rounded-[10px]"
+                  >
+                    Add to Wishlist
+                  </button>
+                  <button
+                    class="hover:text-white hover:bg-slate-900 active:bg-slate-950 focus:outline-none focus:ring focus:ring-slate-300 w-[333px] desktop:w-[260px] h-[56px] border-solid text-[16px] font-[500] text-black rounded-[10px] border-2 border-indigo"
+                  >
+                    Add to Card
+                  </button>
+                </div>
+                <div class="mobile:pl-[5px] flex gap-[32px] pt-[32px]">
+                  <div class="desktop:flex">
+                    <div
+                      class="m-auto w-[56px] py-[16px] px-[16px] bg-[#F6F6F6] rounded-[10px]"
+                    >
+                      <img
+                        src="./assets/icon/delivery-truck-svgrepo-com (1) 1.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="desktop:pl-[16px] pt-[5px]">
+                      <p class="font-[500] text-[14px] text-[#717171]">
+                        Free Delivery
+                      </p>
+                      <p class="pl-[19px] font-[500] text-[14px]">1-2 day</p>
+                    </div>
+                  </div>
+                  <div class="desktop:flex">
+                    <div
+                      class="m-auto w-[56px] py-[16px] px-[16px] bg-[#F6F6F6] rounded-[10px]"
+                    >
+                      <img
+                        src="./assets/icon/shop-2-svgrepo-com 2.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="px-[18px] desktop:pl-[16px] pt-[5px]">
+                      <p class="font-[500] text-[14px] text-[#717171]">
+                        In Stock
+                      </p>
+                      <p class="pl-[7px] font-[500] text-[14px]">Today</p>
+                    </div>
+                  </div>
+                  <div class="desktop:flex">
+                    <div
+                      class="m-auto w-[56px] py-[16px] px-[16px] bg-[#F6F6F6] rounded-[10px]"
+                    >
+                      <img class="" src="./assets/icon/verify.svg" alt="" />
+                    </div>
+                    <div class="px-[6px] desktop:pl-[16px] pt-[5px]">
+                      <p class="text-[#717171] font-[500] text-[14px]">
+                        Guaranteed
+                      </p>
+                      <p class="pl-[21px] font-[500] text-[14px]">1 year</p>
+                    </div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </header>
+  </body>
+</html>
